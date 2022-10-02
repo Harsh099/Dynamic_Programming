@@ -1,6 +1,7 @@
 /* A Naive recursive implementation of
 0-1 Knapsack problem */
 #include <bits/stdc++.h>
+#include<iostream>
 using namespace std;
 
 // A utility function that returns
