@@ -13,7 +13,7 @@ int knapSack(int W, int wt[], int val[], int n)
 {
 
 	// Base Case
-	if (n == 1 || W == 1)
+	if (n == 0 || W == 0)
 		return 0;
 
 	// If weight of the nth item is more
