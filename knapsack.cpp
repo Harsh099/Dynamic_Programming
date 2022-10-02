@@ -40,11 +40,11 @@ int knapSack(int W, int wt[], int val[], int n)
 // Driver code
 int main()
 {
-	int val[] = { 60, 100, 120,10 };
+	int value[] = { 60, 100, 120,10 };
 	int wt[] = { 10, 20, 30 ,12};
 	int W = 50;
-	int n = sizeof(val) / sizeof(val[0]);
-	cout << knapSack(W, wt, val, n);
+	int n = sizeof(value) / sizeof(value[0]);
+	cout << knapSack(W, wt, value, n);
 	return 0;
 }
 
